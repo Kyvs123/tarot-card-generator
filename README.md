@@ -1,1 +1,0 @@
-# tarot-card-generator
