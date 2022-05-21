@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Kanit', sans-serif;
+    
+}
+header{
+    display: flex;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    justify-content: flex-start;
+    padding: 1rem;    
+}
+.logo{
+    
+    width: 50px;
+    
+}
+span{
+    font-size: 20px;
+    margin: 0 .5rem;
+}
+
+
+#frame{
+    background-image: url(icons/back.png);
+    width: 220px;
+    height: 320px;
+    margin-top: 3rem;
+    border: solid 5px black;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    cursor: pointer;    
+    
+}
+/* #card-img {
+    width: 200px;
+} */
+
+#card-number {
+    font-size: 1rem;
+    padding: .5rem 0;
+    width: 50px;
+    height: 50px;
+    margin-top: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 4px black;
+    border-radius: 50%;
+    display: none;
+    
+}
+#card-img{
+    width: 180px;
+    margin: .75rem auto;
+}
+
+#card-name {
+    font-size: 1.25rem;
+    font-size-adjust: 1.25rem;
+    border-top: solid 5px black;
+    display: none;
+
+}
+
+#card-text{
+    height: 100%;
+    padding: .75rem;
+    overflow-y: auto;
+    
+}
+
+/*BOTÃO*/
+button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#close{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    padding: 1.5rem;
+    height: auto;
+    background-color: black;
+   display: none;
+    color: white;
+}
